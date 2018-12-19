@@ -305,7 +305,7 @@ def count_sines_vs_cosines(m):
     # -------------------------------------------------------------------------
     import math
     total = 0
-    for k in range((2 * m )+ 1):
+    for k in range((2 * m) + 1):
         if math.sin(-m + k) > math.cos(-m + k):
             total = total + 1
 
